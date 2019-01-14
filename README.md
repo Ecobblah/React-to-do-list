@@ -1,2 +1,3 @@
 # React-to-do-list
-Built using React
+Built using React and Bootstrap
+
