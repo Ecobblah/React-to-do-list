@@ -1,0 +1,17 @@
+body{
+    background-color:snow;
+}
+.itemText{
+    font-size: 140%;
+}
+.item{
+    border-radius: 5px;
+}
+.form-control {
+    border-bottom:solid 2px rgb(1, 48, 110);
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-radius:0px;
+}
+
