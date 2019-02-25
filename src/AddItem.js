@@ -1,11 +1,14 @@
 import React, {Component} from "react";
 
 class AddItem extends Component{
+    
     state={
         item: '',
         id: null
     }
-    handleSubmit = (e) =>{
+
+    // submit
+    handleSubmit = (e) => {
         e.preventDefault();
         if(this.state.item!==''){
             this.props.handleAdd(this.state);
