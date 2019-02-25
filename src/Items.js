@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Items = ({items, deleteItems}) => {
+    
+    // holds the list of items
     const itemList = items.map(i=>{
         return(
             <div onClick={()=>{deleteItems(i.id)}} key ={i.id}>
@@ -8,6 +10,7 @@ const Items = ({items, deleteItems}) => {
             </div>
         );
     })
+    
     return(
         <div className="container">
             <ul className="list-group">
